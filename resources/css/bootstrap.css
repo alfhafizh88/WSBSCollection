@@ -1,0 +1,273 @@
+:root {
+    --primary-color: #EF352B;
+    --secondary-color: #831a16;
+    --grey-color: #727375;
+    --soft-grey-color: #E0E0E0;
+    --white-color: #FFFFFF;
+    --bg-loading-color: rgb(255, 255, 255, 0.9);
+    --dark-color: #1a1a1a;
+    --green-color: #005e43;
+    --blue-color: #00467a;
+    --yellow-color: #FFCE20;
+    --background-color: #F3F3F3;
+}
+
+
+.btn.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: solid 1px var(--primary-color);
+    transition: 0.5s;
+}
+
+.btn.btn-primary:hover {
+    background-color: var(--grey-color);
+    border: solid 1px var(--grey-color);
+    color: var(--white-color);
+}
+
+.btn.btn-secondary {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    transition: 0.5s;
+}
+
+.btn.btn-secondary:hover {
+    background-color: var(--grey-color);
+    color: var(--white-color);
+}
+
+.btn.btn-secondary-outline {
+    background-color: var(--white-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    transition: 0.5s;
+}
+
+.btn.btn-secondary-outline:hover {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    color: var(--white-color);
+}
+
+.btn.btn-secondary-outline:active {
+    background-color: var(--white-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    transition: 0.5s;
+}
+
+.btn.btn-green {
+    background-color: var(--green-color);
+    color: var(--white-color);
+    transition: 0.5s;
+}
+
+.btn.btn-green:hover {
+    background-color: var(--grey-color);
+    color: var(--white-color);
+}
+
+.btn.btn-blue {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    transition: 0.5s;
+}
+
+.btn.btn-blue:hover {
+    background-color: var(--grey-color);
+    color: var(--white-color);
+}
+
+.btn.btn-grey {
+    background-color: var(--grey-color);
+    color: var(--white-color);
+    transition: 0.5s;
+}
+
+.btn.btn-grey:hover {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+.btn.btn-soft-grey {
+    background-color: var(--soft-grey-color);
+    color: var(--secondary-color);
+    transition: 0.5s;
+}
+
+.btn.btn-soft-grey:hover {
+    background-color: var(--grey-color);
+    color: var(--white-color);
+}
+
+.btn.btn-yellow {
+    background-color: var(--yellow-color);
+    color: var(--dark-color);
+    transition: 0.5s;
+}
+
+.btn.btn-yellow:hover {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+
+.btn.btn-white {
+    background-color: var(--white-color);
+    border: solid 1px var(--secondary-color);
+    border-radius: 8px;
+    color: var(--secondary-color);
+    transition: 0.5s;
+}
+
+.btn.btn-white:hover {
+    background-color: var(--grey-color);
+    color: var(--white-color);
+}
+
+
+.text-blue {
+    color: var(--blue-color);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.text-blue:hover {
+    text-decoration: underline;
+}
+#text-secondary {
+    color: var(--secondary-color);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#text-secondary:hover {
+    text-decoration: underline;
+}
+.text-green {
+    color: var(--green-color);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.text-green:hover {
+    text-decoration: underline;
+}
+
+.text-red {
+    color: var(--primary-color);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.text-red:hover {
+    text-decoration: underline;
+}
+.text-yellow {
+    color: var(--yellow-color);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.text-yellow:hover {
+    text-decoration: underline;
+}
+
+#bg-secondary{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    transition: 0.5s;
+}
+#bg-secondary:hover{
+    background-color: var(--grey-color);
+    color: var(--white-color);
+}
+.bg-green{
+    background-color: var(--green-color);
+    color: var(--white-color);
+    transition: 0.5s;
+}
+.bg-green:hover{
+    background-color: var(--grey-color);
+    color: var(--white-color);
+}
+#bg-green{
+    background-color: var(--green-color);
+    color: var(--white-color);
+    transition: 0.5s;
+}
+#bg-green:hover{
+    background-color: var(--grey-color);
+    color: var(--white-color);
+}
+.bg-blue{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    transition: 0.5s;
+}
+.bg-blue:hover{
+    background-color: var(--grey-color);
+    color: var(--white-color);
+}
+#bg-blue{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    transition: 0.5s;
+}
+#bg-blue:hover{
+    background-color: var(--grey-color);
+    color: var(--white-color);
+}
+
+.font-grey{
+    color: var(--grey-color);
+}
+
+.text-footer-card,
+.percent-footer-card{
+    font-size: 10pt;
+}
+
+
+
+#label-semua,
+#label-billper,
+#label-pranpc,
+#label-existing {
+    background-color: var(--white-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    transition: 0.5s;
+}
+
+#label-semua:hover,
+#label-billper:hover,
+#label-pranpc:hover,
+#label-existing:hover {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    border: 1px solid var(--secondary-color);
+}
+
+/* Gaya untuk label terkait dengan radio button yang dicentang */
+#semua:checked + #label-semua,
+#billper:checked + #label-billper,
+#pranpc:checked + #label-pranpc,
+#existing:checked + #label-existing {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    color: var(--white-color);
+}
+
+
+
+.btn-outline-light {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Memastikan elemen label memenuhi tinggi tombol */
+}
