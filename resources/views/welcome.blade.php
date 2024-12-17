@@ -8,7 +8,7 @@
                     <img src="{{  asset('storage/file_assets/logo-telkom.png') }}" alt="Logo 1" class="logohead">
                 </div>
                 <div class="d-flex flex-column align-items-center mt-5 pt-5">
-                    <span class="fs-2 fw-bold"> Witel SBS Data Collection </span>
+                    <span class="fs-2 fw-bold"> Welcome Witel SBS Data Collection </span>
                     <hr class="hr-landingpage border border-white border-1 mt-0 mb-4 opacity-100 w-100">
                     <a href="/login" class="btn btn-menu w-100 mb-3">
                         <span class="fs-5">
